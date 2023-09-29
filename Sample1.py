@@ -26,8 +26,7 @@ def loop():
   for i in range(100):
     pwm1.duty(100-i)
     time.sleep_ms(20)
-    
-
+    print('wow!')
 
 if __name__ == '__main__':
   try:
